@@ -22,6 +22,12 @@ nav{
 }
 nav a {
     margin: 15px;
+    color:aliceblue;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h3{
+    color: aliceblue;
 }
 body{
     color: black;
@@ -32,6 +38,11 @@ h2{
     background-color:bisque;
     padding: 1rem;
     margin: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+h3{
+    padding:10px;
 }
 main{
     
@@ -51,11 +62,15 @@ main{
 }
 .country{
     display: flex;
-    background-color: cadetblue;
 }
 .card{
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: cadetblue;
+    margin: 1rem;
+
+}
+.resources{
+    background: cadetblue;
 }
 main .image{
     margin:10px;
@@ -63,12 +78,16 @@ main .image{
 
     position: relative;
 }
-hr{
-   size: 100px; 
-}
+
 footer{
+    display: flex;
     color: aliceblue;
     background-color: dodgerblue;
     height: 100px;
+    align-content: center;
     align-items: center;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
 }
