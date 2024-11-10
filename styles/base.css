@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+h1{
+    color: aliceblue;
+    background-color: dodgerblue;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    list-style: none;;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background-color:cornflowerblue  
+}
+nav a {
+    margin: 15px;
+}
+body{
+    color: black;
+    background-color: white;
+    margin: 0;
+}
+h2{
+    background-color:bisque;
+    padding: 1rem;
+    margin: 0;
+}
+main{
+    
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    margin:2rem auto;
+    gap:2rem
+
+ 
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: cadetblue;
+}
+.country{
+    display: flex;
+    background-color: cadetblue;
+}
+.card{
+    border-radius: 8px;
+    background-color: cadetblue;
+}
+main .image{
+    margin:10px;
+    height:150px;
+
+    position: relative;
+}
+hr{
+   size: 100px; 
+}
+footer{
+    color: aliceblue;
+    background-color: dodgerblue;
+    height: 100px;
+    align-items: center;
+}
