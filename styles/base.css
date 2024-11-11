@@ -18,13 +18,15 @@ header nav{
     align-items: center;
     justify-content: space-between;
     flex: 1;
-    background-color:cornflowerblue  
+    background-color:cadetblue;
 }
 nav a {
     margin: 15px;
     color:aliceblue;
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
 
 }
 h3{
@@ -68,7 +70,7 @@ main{
     border-radius: 10px;
     background-color: cadetblue;
     margin: 1rem;
-
+    box-shadow: 6px 6px darkblue;
 }
 .resources{
     background: cadetblue;
