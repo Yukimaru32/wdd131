@@ -18,16 +18,26 @@ header nav{
     align-items: center;
     justify-content: space-between;
     flex: 1;
-    background-color:cadetblue;
+    background-color:bisque;
 }
-nav a {
+header nav a {
     margin: 15px;
     color:aliceblue;
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 30px;
     margin-right: 30px;
+    background-color: cadetblue;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 6px 6px darkblue;
 
+}
+nav a{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    padding: 10px;
 }
 h3{
     color: aliceblue;
