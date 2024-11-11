@@ -11,7 +11,7 @@ h1{
     padding: 10px;
     margin: 0;
 }
-nav{
+header nav{
     display: flex;
     list-style: none;;
     height: 100px;
@@ -24,7 +24,8 @@ nav a {
     margin: 15px;
     color:aliceblue;
     font-size: 18px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 h3{
     color: aliceblue;
@@ -72,9 +73,11 @@ main{
 .resources{
     background: cadetblue;
 }
+
 main .image{
     margin:10px;
     height:150px;
+    border-radius: 8px;
 
     position: relative;
 }
