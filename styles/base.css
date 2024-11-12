@@ -44,7 +44,7 @@ nav a{
     font-style: normal;
     padding: 10px;
 }
-.button:hover{
+nav a:hover{
     color: aliceblue;
     background-color: dodgerblue;
 }
