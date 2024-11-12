@@ -39,6 +39,11 @@ nav a{
     margin: 20px;
     padding: 10px;
 }
+.botton:hover{
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+
 h3{
     color: aliceblue;
 }
@@ -56,6 +61,10 @@ h2{
 }
 h3{
     padding:10px;
+}
+hr{
+    align-self:center;
+    width: 90%;
 }
 main{
     
@@ -82,10 +91,16 @@ main{
     margin: 1rem;
     box-shadow: 6px 6px darkblue;
 }
-.resources{
-    background: cadetblue;
-}
+.Resources{
 
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-around;
+}
+.link{
+    font-size: 20px;
+}
 main .image{
     margin:10px;
     height:150px;
