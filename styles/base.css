@@ -24,7 +24,6 @@ header nav a {
     margin: 15px;
     color:aliceblue;
     font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin-left: 30px;
@@ -39,7 +38,6 @@ nav a{
     color: aliceblue;
     font-family: "Open Sans", serif;
     font-weight: 400;
-    font-optical-sizing: auto;
     margin: 20px;
     font-style: normal;
     padding: 10px;
@@ -131,6 +129,5 @@ span{
     font-family: "Open Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-optical-sizing: auto;
     margin: 50px;
 }
