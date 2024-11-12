@@ -91,7 +91,7 @@ main{
     margin: 1rem;
     box-shadow: 6px 6px darkblue;
 }
-.Resources{
+.resources{
 
     display: flex;
     flex-flow: column;
