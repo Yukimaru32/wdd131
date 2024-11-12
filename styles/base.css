@@ -10,6 +10,7 @@ h1{
     text-align: center;
     padding: 10px;
     margin: 0;
+    text-shadow: 6px 6px darkblue;
 }
 header nav{
     display: flex;
