@@ -101,11 +101,11 @@ main{
     box-shadow: 6px 6px darkblue;
 }
 .resources{
-
     display: flex;
     flex-flow: column;
     text-align: center;
     justify-content: space-around;
+    
 }
 .link{
     font-size: 20px;
