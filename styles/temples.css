@@ -30,18 +30,24 @@ nav a{
     font-weight: 400;
     font-style: normal;
     font-family: "Roboto", serif;
-    font-size: 18px;
+    font-size: 15px;
     margin: 30px;
     color: aliceblue;
 }
-main{
+section{
     display: grid;
     gap:1rem;
 }
 main img{
-    aspect-ratio: 16 9;
+
     height: 60%;
     width:90%;
+    margin: 10px;
+}
+figcaption{
+    font-style: normal;
+    font-family: "Roboto", serif;
+    font-weight: 400;
     margin: 10px;
 }
 nav a:hover{

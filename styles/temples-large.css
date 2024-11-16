@@ -33,13 +33,21 @@
         margin: 30px;
         color: aliceblue;
     }
-    main{
+    section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap:1rem;
     }
+    figcaption{
+        font-weight: 400;
+        font-style: normal;
+        font-family: "Roboto", serif;
+        font-size: 20px;
+        margin:15px;
+    }
+
     main img{
-        aspect-ratio: 16 9;
+
         height: 60%;
         width:90%;
         margin: 10px;
