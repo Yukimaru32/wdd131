@@ -4,7 +4,6 @@ body{
 header{
     background-color:#47A9FF;
     margin:10px;
-    width: 100%;
 }
 h1{
     font-weight: 400;
@@ -31,7 +30,7 @@ nav a{
     font-style: normal;
     font-family: "Roboto", serif;
     font-size: 15px;
-    margin: 30px;
+    margin: 10px;
     color: aliceblue;
 }
 section{
