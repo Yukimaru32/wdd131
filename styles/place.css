@@ -1,3 +1,8 @@
+:root{
+    --main-color: bisque;
+    --main: bisque;
+    --blue: skyblue;
+}
 body{
     font-family: "Roboto", serif;
     font-weight: 400;
@@ -6,7 +11,7 @@ body{
 
 }
 h1{
-    background-color: bisque;
+    background-color: var(--main);
     padding: 5px;
     border-radius: 8px;
 }
@@ -18,15 +23,19 @@ img{
 
 }
 section{
-    background-color: bisque;
+    background-color: var(--main);
     border-radius: 8px;
 }
 .icon{
     height: 100px;
     width:100px;
 }
+p::after{
+    content: "";
+    color: aliceblue;
+}
 footer{
-    background-color: skyblue;
+    background-color: var(--blue);
     border-radius: 8px;
 }
 
