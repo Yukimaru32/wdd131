@@ -1,0 +1,82 @@
+@media screen and (min-width: 1100px){
+    body{
+        margin: 0;
+    }
+    header{
+        align-content: center;
+    }
+    h1{
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        background-color: red;
+        margin:0;
+        padding:20px;
+        border-radius: 0;
+    }
+    img{
+        position: relative;
+        width: 100%;
+    }
+    h2{
+        color: black;
+        background-color: white;
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    main{
+        margin: 0;
+    }
+    section{
+        border-color: black;
+        background-color: blue;
+        border-radius: 8px;
+        text-align: center;
+        width: 20%;
+
+    }
+    section img{
+        height: 50px;
+        width:50px;
+    }
+    .info{
+        height: 450px;
+        position: absolute;
+        left: 300px;
+        right: 0;
+        bottom: 150px;
+        top:200px;
+    }
+    .weather{
+        height: 330px;
+        position: absolute;
+        left: 950px;
+        right: 0;
+        bottom: 230px;
+        top:500px;
+    }
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    p{
+        color: aliceblue;
+        padding:5px;
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    span{
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: aliceblue;
+    }
+    footer{
+        background-color: red;
+        text-align: center;
+    }
+}

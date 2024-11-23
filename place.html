@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuki Ikeda">
+    <meta name="description" content="This is a website about the place where I want to visit.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place_mid.css">
+    <link rel="stylesheet" href="styles/place_large.css">
+    <title>Place</title>
+</head>
+<body>
+    <heading>
+        <h1>France</h1>
+        <div class ="hero">
+            <picture>
+                <source srcset="images/france1.webp" media="(min-width: 1100px)" type="image/webp">
+                <source srcset="images/france2.webp" media="(min-width: 450px)" type="image/webp">
+                <img src="images/france3.webp" alt="Tour Eiffel">
+            </picture>
+        </div>
+    </heading>
+    <main>
+        <section class ="info">
+            <h2>Data</h2>
+            <p>Area:551,500 sq km</p>
+            <p>Population: 68,305,148</p>
+            <p>Capitial: Paris</p>
+            <p>Languages: French</p>
+            <p>Currency: Euro</p>
+            <p>Time Zone: UTC+1</p>
+            <p>Calling Code: 33</p>
+            <p>Internet TLD: .fr</p>
+        </section>
+        <section class ="weather">
+            <h2>Weather</h2>
+            <img class ="icon" src="images/cloudy_sunny.svg" alt ="sun with cloud">
+            <p>Temperature: 10&deg;C</p>  
+            <p>Condition: partially cloudy</p>
+            <p>Wind Speed: 10km/h</p>  
+            <span id ="WindChill"></span> 
+            <script src ="scripts/weather.js" defer></script>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;2024 Yuki Ikeda Japan</p><span id="lastModified"></span>
+        <script src="scripts/getdates.js" defer></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+h1{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 8px;
+}
+h2{
+    padding:10px;
+}
+img{
+    width: 100%;
+
+}
+section{
+    background-color: bisque;
+    border-radius: 8px;
+}
+.icon{
+    height: 100px;
+    width:100px;
+}
+footer{
+    background-color: skyblue;
+    border-radius: 8px;
+}
+
