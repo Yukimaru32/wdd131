@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-style: normal;
+    background-attachment: fixed;
+    
+}
+
+header{
+    padding:20px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+img{
+    width: 400px;
+    height: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+section{
+    display:block;
+    align-content: center;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 20px;
+}
