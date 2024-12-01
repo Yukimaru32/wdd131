@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    margin:0;
+
+}
+header{
+    background-color:#47A9FF;
+    margin:0;
+}
+h1{
+    padding: 10px;
+    color: aliceblue;
+    margin: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav a{
+    font-size: 15px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+section{
+    display: block;
+    background-color: #94DED4;
+    margin: 5px;
+}
+main img{
+
+    height: 60%;
+    width:90%;
+    margin: 10px;
+}
+figcaption{
+
+    margin: 10px;
+}
+nav a:hover{
+    color: black;
+}
+figure{
+    background-color: #94DED4;
+    text-align: center;
+    margin: 10px;
+}
+
+footer{
+    color: aliceblue;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", serif;
+    background-color: #47A9FF;
+    height: 60px;
+    margin: 10px;
+    align-content: center;
+    text-align: center;
+}
