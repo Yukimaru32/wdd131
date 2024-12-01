@@ -63,3 +63,17 @@ footer{
     align-content: center;
     text-align: center;
 }
+img {
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 2s forwards; /* Apply animation */
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      background-color: black; /* Background black during transition */
+    }
+    100% {
+      opacity: 1;
+      background-color: transparent; /* Clear background after fade-in */
+    }
+}
