@@ -1,0 +1,101 @@
+@media screen and (min-width:1000px){
+    body{
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    h1{
+        padding: 10px;
+    }
+    h2{
+
+        padding:10px;
+    }
+    nav h2{
+        color: black;
+    }
+    nav{
+        background-color: transparent;
+        margin: 0;
+        padding:20px;
+        align-content: center;
+    }
+    nav a{
+        background-color: purple;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        
+    }
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+
+        color: aliceblue;
+    }
+    .description{
+        color: aliceblue;
+        background-color: black ;
+
+    }
+    section{
+        display: flex;
+        
+
+    }
+    img{
+        height: 80%;
+        width:100%;
+        position: relative;
+    }
+    footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+
+    }
+    div nav{
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+
+
+    }
+    div{
+        border-radius: 8px;
+        margin: 10px;
+        width: 50%;
+        color: aliceblue;
+        background-color: black;
+
+    }
+    div nav a{
+        background-color: transparent;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    nav a:hover{
+        background-color: aliceblue;
+        color: black;
+
+    }
+    p{
+        padding: 10px;
+    }
+    .shop{
+        text-align: center;
+    }
+}

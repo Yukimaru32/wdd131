@@ -17,13 +17,12 @@
 <body>
     <header>
         <h1>France</h1>
-        <div class ="hero">
-            <picture>
-                <source srcset="images/france1.webp" media="(min-width: 1100px)" type="image/webp">
-                <source srcset="images/france2.webp" media="(min-width: 450px)" type="image/webp">
-                <img src="images/france3.webp" alt="Tour Eiffel">
-            </picture>
-        </div>
+        
+        <picture class="hero">
+            <source srcset="images/france1.webp" media="(min-width: 1100px)" type="image/webp">
+            <source srcset="images/france2.webp" media="(min-width: 450px)" type="image/webp">
+            <img src="images/france3.webp" alt="Tour Eiffel">
+        </picture>
     </header>
     <main>
         <section class ="info">
@@ -39,7 +38,10 @@
         </section>
         <section class ="weather">
             <h2>Weather</h2>
-            <img class ="icon" src="images/cloudy_sunny.svg" alt ="sun with cloud">
+            <picture>
+                <source srcset="images/place_weather.jpg" media="(min-width:450px)" type="image/jpg">
+                <img class ="icon" src="images/cloudy_sunny.svg" alt ="sun with cloud">
+            </picture>
             <p>Temperature: 10&deg;C</p>  
             <p>Condition: partially cloudy</p>
             <p>Wind Speed: 10km/h</p>  

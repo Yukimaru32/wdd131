@@ -78,7 +78,7 @@ function createTempleCard(temples) {
       let area=document.createElement("p");
       let img=document.createElement("img");
 
-      name.textContent =temple.templeName;
+      name.textContent =`${temple.templeName} Temple`;
       location.innerHTML= `<span class="label">Location:</span> ${temple.location}`;
       dedication.innerHTML= `<span class="label">Dedicated:</span> ${temple.dedicated}`;
       area.innerHTML= `<span class="label">Location:</span> ${temple.area} sq ft`;

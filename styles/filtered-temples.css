@@ -32,12 +32,15 @@ section{
     display: block;
     background-color: #94DED4;
     margin: 5px;
+    border-radius: 8px;
+
 }
 main img{
 
-    height: 60%;
-    width:90%;
+    height: 250px;
+    width:330px;
     margin: 10px;
+
 }
 figcaption{
 
