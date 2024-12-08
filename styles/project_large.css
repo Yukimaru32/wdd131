@@ -12,6 +12,19 @@
     h1{
         padding: 10px;
     }
+    main h1{
+        font-family: "Dancing Script", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: black;
+        position: absolute;
+        left: 500px;
+        bottom: 400px;
+        font-size: 70px;
+    }
+
+    
     h2{
 
         padding:10px;
@@ -41,8 +54,8 @@
         justify-content: space-between;
         position: fixed;
         z-index: 1;
-
         color: aliceblue;
+
     }
     .description{
         color: aliceblue;
@@ -50,14 +63,19 @@
 
     }
     section{
-        display: flex;
+        display:flex;
         
 
+    }
+    section img{
+        height: 300px;
+        width: 50%;
     }
     img{
         height: 80%;
         width:100%;
         position: relative;
+
     }
     footer{
         background-color: black;
@@ -75,7 +93,7 @@
     div{
         border-radius: 8px;
         margin: 10px;
-        width: 50%;
+        width: 80%;
         color: aliceblue;
         background-color: black;
 
@@ -92,10 +110,32 @@
         color: black;
 
     }
+    div h2{
+        text-align: center;
+    }
     p{
         padding: 10px;
     }
     .shop{
         text-align: center;
     }
+    h1.slide{
+        animation-name: fadeIn;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-delay: 0.5s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: backwards;
+
+    }
+}
+@keyframes fadeIn  {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+    
 }

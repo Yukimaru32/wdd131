@@ -1,0 +1,88 @@
+@media screen and (min-width:1000px){
+    body{
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        
+    }
+    h1{
+        padding: 10px;
+    }
+    h2{
+
+        padding:10px;
+    }
+    nav{
+        background-color: transparent;
+        margin: 0;
+        padding:20px;
+        align-content: center;
+    }
+    nav a{
+        background-color: purple;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        
+    }
+    header{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        z-index: 1;
+        background-color: black;
+
+        color: aliceblue;
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section div{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        margin:10px;
+        display: flex;
+        color: aliceblue;
+        background-color: black;
+        border-radius: 8px;
+
+    }
+    section img{
+        height: 200px;
+        width: 150px;
+        margin-top: 20px;
+    }
+    section cite{
+        margin-right: 10px;
+    }
+    section p{
+        margin: 10px;
+        font-family: "Roboto Mono", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    section h3{
+        margin-left: 10px;
+    }
+    footer{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+
+    }
+    
+    
+    
+}

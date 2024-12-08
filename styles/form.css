@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", serif;
+
+
+}
+header,
+footer{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    
+}
+.wf1 fieldset{
+    margin: 1rem;
+    background-color: lightgray;
+    border-radius: 8px;
+    max-width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.wf1 label{
+    padding-top:1rem;
+}
+.wf1 div{
+    padding-top: 1rem;
+}
+.wf1 div
+.wf1 input[type="text"],
+.wf1 input[type="date"]{
+    display: block;
+}
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"]{
+    margin: 1rem;
+
+}
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(rgb(0, 255, 81),rgb(37, 153, 37));
+    font-size: 24px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 1rem;
+
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    max-width: 400px;
+}
