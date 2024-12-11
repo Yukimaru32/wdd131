@@ -4,17 +4,17 @@ const mangas = [
         author: "Hajime,Isayama",
         published: "2010,March,17",
         sales: 140,
-        genre: "battle",
-        imageUrl:"images_project/attack_on_titan.jpg",
+        genre: "battle,action",
+        imageUrl:"images/attack_on_titan.jpg",
         cite:"Attack On Titan Vol.1"
       },
     {
-        mangaTitle: "Assasination Class",
+        mangaTitle: "Assasination Classroom",
         author: "Yusei,Matsui",
         published: "2012,November,2",
         sales: 25,
-        genre: "battle,romance",
-        imageUrl:"images_project/assasination_class.jpeg",
+        genre: "battle,romance,school",
+        imageUrl:"images/assasination_class.jpeg",
         cite:"Assasination Class Vol.1"
       },
     {
@@ -22,8 +22,8 @@ const mangas = [
         author: "Taito,Kubo",
         published: "2001,August,7",
         sales: 130,
-        genre: "battle,horror",
-        imageUrl:"images_project/bleach.jpg",
+        genre: "battle,action,fantasy",
+        imageUrl:"images/bleach.jpg",
         cite:"Bleach Vol.1"
       },
     {
@@ -32,7 +32,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -41,7 +41,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -50,7 +50,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -59,7 +59,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -68,7 +68,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -77,7 +77,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -86,7 +86,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -95,7 +95,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -104,7 +104,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -113,7 +113,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -122,7 +122,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -131,7 +131,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -140,7 +140,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -149,7 +149,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -158,7 +158,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -167,7 +167,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -176,7 +176,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -185,7 +185,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -194,7 +194,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -203,7 +203,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -212,7 +212,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -221,7 +221,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -230,7 +230,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -239,7 +239,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -248,7 +248,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -257,7 +257,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -266,7 +266,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -275,7 +275,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -284,7 +284,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -293,7 +293,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -302,7 +302,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -311,7 +311,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -320,7 +320,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -329,7 +329,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -338,7 +338,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -347,7 +347,7 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
     {
@@ -356,9 +356,37 @@ const mangas = [
         published: "",
         sales: 100,
         genre: "",
-        imageUrl:"images_project/",
+        imageUrl:"images/",
         cite:"Vol.1"
       },
+    {
+        mangaTitle: "",
+        author: "",
+        published: "",
+        sales: 100,
+        genre: "",
+        imageUrl:"images/",
+        cite:"Vol.1"
+      },
+    {
+        mangaTitle: "",
+        author: "",
+        published: "",
+        sales: 100,
+        genre: "",
+        imageUrl:"images/",
+        cite:"Vol.1"
+      },
+    {
+        mangaTitle: "",
+        author: "",
+        published: "",
+        sales: 100,
+        genre: "",
+        imageUrl:"images/",
+        cite:"Vol.1"
+      }
+    
 
     
 
