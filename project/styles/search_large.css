@@ -4,9 +4,6 @@
         font-weight: 400;
         font-style: normal;
         margin: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0;
         
     }
     h1{
@@ -29,24 +26,45 @@
         border-radius: 5px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 18px;
+        font-size: 20px;
         
     }
+    nav a:hover{
+        background-color: aliceblue;
+        color: black;
+
+    }
     header{
+        position:fixed;
         display: flex;
         width: 100%;
         justify-content: space-between;
-
-        z-index: 1;
         background-color: black;
-
         color: aliceblue;
     }
+    header div{
+        display: flex;
+    }
+    main{
+        padding-top:120px;
+
+    }
+
     div{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    
+    .sub2{
+        align-items: center;
+    }
+    section div nav a{
+        font-size: 16px;
+        max-width: 100px;
     }
     section div{
+        margin: 5px;
         display: flex;
         flex-direction: column;
     }
@@ -61,7 +79,7 @@
     section img{
         height: 200px;
         width: 150px;
-        margin-top: 20px;
+        margin: 20px;
     }
     section cite{
         margin-right: 10px;
@@ -82,7 +100,69 @@
         text-align: center;
 
     }
+    .menu-container{
+        position: relative;
+    }
+    .menu-bar{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 35px;
+        transition: transform 0.3s ease;
+    }
+    .menu-bar span{
+        display: block;
+        height: 5px;
+        background-color: purple;
+        transition: all 0.3s ease;
+        margin-top: px;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        border: solid 2px aliceblue;
+        border-radius: 8px;
+    }
+    .menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu li {
+        padding: 15px, 0;
+        margin:  25px;
+    }
+    .menu a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .menu-bar.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
     
+    .menu-bar.open span:nth-child(2) {
+        opacity: 0;
+    }
     
+    .menu-bar.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
     
+    .menu.open {
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        left: -45px
+    }
 }

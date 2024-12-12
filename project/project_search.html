@@ -12,22 +12,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/search.css">
     <link rel="stylesheet" href="styles/search_large.css">
+
     <title>WDD131 - Project Yuki Ikeda</title>
 </head>
 <body>
     <header>
         <h1>The World Of Japanese Manga</h1>
-        <nav>
-            <a class = "button" href="project.html">Home</a>
-            <a class = "button" href="">Action</a>
-            <a class = "button" href="project_search.html">Battle</a>
-            <a class = "button" href="">Dark</a>
-            <a class = "button" href="">School</a>
-            <a class = "button" href="">Romance</a>
-            <a class = "button" href="">Sports</a>
-            <a class = "button" href="">Horror</a>
-            <a class = "button" href="">Fantasy</a>
-        </nav>  
+        <div class ="buttons">
+
+            <nav>
+                <a class = "home" href="project.html">Home</a>
+                <a class = "review" href ="manga_review.html">Review</a>
+                
+            </nav>
+            <div class="menu-container">
+                <div class ="menu-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class ="menu">
+                    <p>Sort/Filter by</p>
+                    <ul>
+                        <li><a class = "button" href="">Action</a></li>
+                        <li><a class = "button" href="project_search.html">Battle</a></li>
+                        <li><a class = "button" href="">Comedy</a></li>
+                        <li><a class = "button" href="">School</a></li>
+                        <li><a class = "button" href="">Dark</a></li>
+                        <li><a class = "button" href="">Romance</a></li>
+                        <li><a class = "button" href="">Sports</a></li>
+                        <li><a class = "reset" href="">Reset</a></li>
+                        <li><a class = "button" href="">Recent</a></li>
+                        <li><a class = "button" href="">Popular</a></li>
+                        <li><a class = "button" href="">Alphabet</a></li>
+                    </ul>
+                </nav>  
+            </div>
+        </div>
+
     </header>
     <main>
         <div class="mangalist">

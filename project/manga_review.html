@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yuki Ikeda">
+    <meta name="description" content="This is a page for manga review.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/review.css">
+    <link rel="stylesheet" href="styles/review_large.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>The World Of Japanese Manga</h1>
+        <nav>
+            <a class = "button" href="project.html">Home</a>
+            <a class = "button" href="project_search.html">Search</a>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <legend>Review Form</legend>
+                <label for="product-select">Product Selection</label>
+                <select id="product-select" name="product-select" required>
+                    <option value="" disabled selected>Select a Product</option>
+                    <script src="scripts/form.js" defer></script>
+                </select>
+                <div>Overall Rating</div>
+                <label><input id="1star" type="radio" name="audience" value="star" required>&star;</label>
+                <label><input id="2star" type="radio" name="audience" value="star" required>&star;&star;</label>
+                <label><input id="3star" type="radio" name="audience" value="star" required>&star;&star;&star;</label>
+                <label><input id="4star" type="radio" name="audience" value="star" required>&star;&star;&star;&star;</label>
+                <label><input id="5star" type="radio" name="audience" value="star" required>&star;&star;&star;&star;&star;</label>
+                <div>Reading date</div>
+                <label><input id="date" type="date" name="date" required></label>
+                <div>Whhat did you like about this manga?(Select ALL that apply)</div>
+                <label><input id="durability" type="checkbox" name="feature" value="yes">Durability</label>
+                <label><input id="ease" type="checkbox" name="feature" value="yes">Ease of Use</label>
+                <label><input id="performance" type="checkbox" name="feature" value="yes">Performance</label>
+                <label><input id="design" type="checkbox" name="feature" value="yes">Design</label>
+                <div>Written Review(Optional)</div>
+                <textarea>
+
+                </textarea>
+                <div>Name(Optional)</div>
+                <label><input type="text" name="username"></label>
+            </fieldset>
+            <div class="button">
+                <input type="submit" value="Post my review">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 Yuki Ikeda &#x1f38d;	Japan &#x1f38d;	</p><span id="lastModified"></span>
+        <script src="scripts/dates.js" defer></script>
+    </footer>
+</body>
+</html>
