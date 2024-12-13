@@ -1,4 +1,4 @@
-const mangas = [
+const mangaList = [
   {
     mangaTitle: "Attack On Titan",
     author: "Hajime,Isayama",
@@ -13,7 +13,7 @@ const mangas = [
     published: "2012,November,2",
     sales: 25,
     genre: "battle,romance,school",
-    imageUrl:"images/assasination_class.jpeg",
+    imageUrl:"images/assasination_class.jpg",
   },
   {
     mangaTitle: "Bleach",
@@ -99,57 +99,57 @@ const mangas = [
     mangaTitle: "Hunter X Hunter",
     author: "Yoshihiro,Togashi",
     published: "1998,March,16",
-    sales: 100,
+    sales: 84,
     genre: "action,battle",
     imageUrl:"images/hunterXhunter.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Naruto",
+    author: "Masashi,Kishimoto",
+    published: "1999,September,21",
+    sales: 250,
+    genre: "action,battle",
+    imageUrl:"images/naruto.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
+    mangaTitle: "My Hero Academia",
+    author: "Kouhei,Horikoshi",
+    published: "2014,July,7",
     sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    genre: "action,battle,school,comedy",
+    imageUrl:"images/my_hero_academia.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Death Note",
+    author: "Tsugumi,Oba",
+    published: "2003,December",
+    sales: 30,
+    genre: "battle,dark,horror",
+    imageUrl:"images/deathnote.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Dandadan",
+    author: "Yukinobu,Tatsu",
+    published: "2019,April,6",
+    sales: 3.2,
+    genre: "action,battle,comedy,romance,horror",
+    imageUrl:"images/dandadan.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "One Piece",
+    author: "Eichiro,Oda",
+    published: "1997,July,22",
+    sales: 510,
+    genre: "action,battle",
+    imageUrl:"images/onepiece.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Demon Slayer",
+    author: "Koyoharu,Gotouge",
+    published: "2016,Febuary,16",
+    sales: 150,
+    genre: "action,battle,dark",
+    imageUrl:"images/demonslayer.jpg",
   },
   {
     mangaTitle: "",
@@ -392,13 +392,130 @@ function createMangaCard(mangas) {
   
       })
 }
+function filterRecent() {
+  const filterManga = mangaList.filter(manga => {
+    const year = parseInt(manga.published.split(",")[0]);
+    return year >= 2000;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterOld() {
+  const filterManga = mangaList.filter(manga =>{
+    const year = parseInt(manga.published.split(",")[0]);
+    return year <2000;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterAction() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("action");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterBattle() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("battle");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterComedy() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("comedy");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterDark() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("dark");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterSchool() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("school");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterRomance() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("romance");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterSports() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("sports");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
+function filterPolular() {
+  const filterManga = mangaList.filter(manga => manga.sales > 100);
+
+  createMangaCard(filterManga);
+}
+function SortTitle() {
+  const sortManga = mangaList.sort((a,b) => 
+  a.mangaTitle.localeCompare(b.mangaTitle));
+
+  createMangaCard(sortManga);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
-  createMangaCard(mangas); // 初期データを表示
-  document.getElementById(".reset").addEventListener("click",()=>{
-    createMangaCard(mangas);
+  createMangaCard(mangaList); // 初期データを表示
+  document.getElementById("reset").addEventListener("click",()=>{
+    createMangaCard(mangaList);
   });
+  document.getElementById("recent").addEventListener("click",()=>{
+    filterRecent();
+  })
+  document.getElementById("old").addEventListener("click",()=>{
+    filterOld();
+  })
+  document.getElementById("action").addEventListener("click",()=>{
+    filterAction();
+  })
+  document.getElementById("battle").addEventListener("click",()=>{
+    filterBattle();
+  })
+  document.getElementById("comedy").addEventListener("click",()=>{
+    filterComedy();
+  })
+  document.getElementById("dark").addEventListener("click",()=>{
+    filterDark();
+  })
+  document.getElementById("school").addEventListener("click",()=>{
+    filterSchool();
+  })
+  document.getElementById("romance").addEventListener("click",()=>{
+    filterRomance();
+  })
+  document.getElementById("popular").addEventListener("click",()=>{
+    filterPolular();
+  })
+  document.getElementById("sports").addEventListener("click",()=>{
+    filterSports();
+  })
+  document.getElementById("alphabet").addEventListener("click",()=>{
+    SortTitle();
+  })
 });
+
 
 document.addEventListener('DOMContentLoaded', function() {
   const searchMenu = document.querySelector('.menu-bar');
@@ -407,5 +524,20 @@ document.addEventListener('DOMContentLoaded', function() {
   searchMenu.addEventListener('click', function() {
       navMenu.classList.toggle('open');
   });
+
 });
+
+function createMangalist(mangas){
+  mangas.forEach(manga =>{
+      let card =document.createElement("option");
+      
+
+      card.innerHTML=`${manga.mangaTitle}`;
+      card.setAttribute("value",manga.mangaTitle);
+
+      document.querySelector("#product-select").appendChild(card);
+  })
+}
+
+createMangalist(mangaList);
   
