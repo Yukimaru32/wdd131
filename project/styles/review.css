@@ -1,0 +1,100 @@
+
+header{
+    display: block;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: space-between;
+    width: 100%;
+}
+p,
+h1{
+    padding: 10px;
+    margin: 0;
+}
+header,
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+nav a{
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;                
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+nav{
+    margin: 0;
+    padding:20px;
+    align-content: center;
+}
+.wf1 fieldset{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1rem;
+    background-color: lightgray;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.wf1 legend{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.wf1 label{
+    padding-top:1rem;
+}
+.wf1 div{
+    padding-top: 1rem;
+}
+.wf1 div
+.wf1 input[type="text"],
+.wf1 input[type="date"]{
+    display: block;
+}
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 input[type="radio"],
+.wf1 input[type="checkbox"]{
+    margin: 1rem;
+    
+}
+.wf1 input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(rgb(186, 105, 200),rgb(116, 37, 153));
+    font-size: 24px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 10px;
+
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 1rem;
+}

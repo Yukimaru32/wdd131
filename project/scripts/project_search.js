@@ -152,188 +152,188 @@ const mangaList = [
     imageUrl:"images/demonslayer.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Good Night Punpun",
+    author: "Inio,Asano",
+    published: "2007,August,3",
+    sales: 3,
+    genre: "dark",
+    imageUrl:"images/punpun.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Frieren",
+    author: "Kanehito,Yamada",
+    published: "2020,April,28",
+    sales: 22,
+    genre: "actino,battle",
+    imageUrl:"images/frieren.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Haikyu!",
+    author: "Haruichi,Hurudate",
+    published: "2012,Febuary,20",
+    sales: 62,
+    genre: "school,sports",
+    imageUrl:"images/haikyu.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Gintama",
+    author: "Hideaki,Sorachi",
+    published: "2004,October,4",
+    sales: 73,
+    genre: "action,battle,comedy",
+    imageUrl:"images/gintama.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Jojo's Bizarre Adventure",
+    author: "Hirohiko,Araki",
+    published: "1986,December,2",
+    sales: 120,
+    genre: "actino,battle,dark,horror",
+    imageUrl:"images/jojo.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "The Promised Neverland",
+    author: "Kaiu,Shirai",
+    published: "2016,Augst,1",
+    sales: 42,
+    genre: "action,dark,suspence",
+    imageUrl:"images/neverland.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Oshi no Ko",
+    author: "Aka,Akasaka",
+    published: "2020,April,23",
+    sales: 18,
+    genre: "dark,suspence",
+    imageUrl:"images/oshinoko.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Parasite",
+    author: "Hitoshi,Iwaaki",
+    published: "1990,January",
+    sales: 24,
+    genre: "battle,horror",
+    imageUrl:"images/parasite.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Fullmetal Alchemist",
+    author: "Hiromu,Arakawa",
+    published: "2001,August",
+    sales: 80,
+    genre: "action,battle",
+    imageUrl:"images/metal.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
+    mangaTitle: "Baki",
+    author: "Keisuke,Itagaki",
+    published: "1992,Febuary,21",
     sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    genre: "battle",
+    imageUrl:"images/baki.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Kingdom",
+    author: "Yasuhisa,Hara",
+    published: "2006,January,26",
+    sales: 110,
+    genre: "battle",
+    imageUrl:"images/kingdom.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Tokyo Revengers",
+    author: "Ken,Wakui",
+    published: "2017,March,1",
+    sales: 80,
+    genre: "action,battle",
+    imageUrl:"images/tokyo.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Tokyo Ghoul",
+    author: "Sui,Ishida",
+    published: "2011,September,8",
+    sales: 47,
+    genre: "action,battle,dark,horror",
+    imageUrl:"images/tokyoghoul.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "The Seven Deadly Sins",
+    author: "Nakaba,Suzuki",
+    published: "2012",
+    sales: 55,
+    genre: "action,battle",
+    imageUrl:"images/seven.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Forest of Piano",
+    author: "Makoto,Isshiki",
+    published: "1998",
+    sales: 6,
+    genre: "sports",
+    imageUrl:"images/piano.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Blue Lock",
+    author: "Muneyuki,Kaneshiro",
+    published: "2018,Augst,1",
+    sales: 40,
+    genre: "sports",
+    imageUrl:"images/bluelock.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "20th Century Boy",
+    author: "Naoki,Urasawa",
+    published: "1999",
+    sales: 36,
+    genre: "battle,horror,suspence",
+    imageUrl:"images/20thcentury.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Initial D",
+    author: "Shuichi,Shigeno",
+    published: "1995,July,17",
+    sales: 56,
+    genre: "sports",
+    imageUrl:"images/initialD.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Detective Conan",
+    author: "Goushou,Aoyama",
+    published: "1994",
+    sales: 270,
+    genre: "suspence",
+    imageUrl:"images/conan.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Aoashi",
+    author: "Yugo,Kobayashi",
+    published: "2015,January,5",
+    sales: 21,
+    genre: "school,sports",
+    imageUrl:"images/aoashi.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Your Lie in April",
+    author: "Naoshi,Urakawa",
+    published: "2011,May",
+    sales: 5,
+    genre: "school,romance",
+    imageUrl:"images/april.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Blue Box",
+    author: "Kouji,Miura",
+    published: "2021,April,21",
+    sales: 6.2,
+    genre: "school,sports,romance",
+    imageUrl:"images/bluebox.jpg",
   },
   {
-    mangaTitle: "",
-    author: "",
-    published: "",
-    sales: 100,
-    genre: "",
-    imageUrl:"images/",
+    mangaTitle: "Kaiju No.8",
+    author: "Naoya,Matsumoto",
+    published: "2020,July,3",
+    sales: 16,
+    genre: "action,battle",
+    imageUrl:"images/no.8.jpg",
   },
     
 
@@ -440,6 +440,14 @@ function filterDark() {
 
   createMangaCard(filterManga);
 }
+function filterHorror(){
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("horror");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}
 function filterSchool() {
   const filterManga = mangaList.filter(manga => {
     const filter = manga.genre.includes("school");
@@ -465,10 +473,18 @@ function filterSports() {
   createMangaCard(filterManga);
 }
 function filterPolular() {
-  const filterManga = mangaList.filter(manga => manga.sales > 100);
+  const filterManga = mangaList.filter(manga => manga.sales >= 100);
 
   createMangaCard(filterManga);
 }
+function filterSuspence() {
+  const filterManga = mangaList.filter(manga => {
+    const filter = manga.genre.includes("suspence");
+    return filter;
+  });
+
+  createMangaCard(filterManga);
+}  
 function SortTitle() {
   const sortManga = mangaList.sort((a,b) => 
   a.mangaTitle.localeCompare(b.mangaTitle));
@@ -477,7 +493,7 @@ function SortTitle() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  createMangaCard(mangaList); // 初期データを表示
+  SortTitle(mangaList); // 初期データを表示
   document.getElementById("reset").addEventListener("click",()=>{
     createMangaCard(mangaList);
   });
@@ -499,6 +515,9 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("dark").addEventListener("click",()=>{
     filterDark();
   })
+  document.getElementById("horror").addEventListener("click",()=>{
+    filterHorror();
+  })
   document.getElementById("school").addEventListener("click",()=>{
     filterSchool();
   })
@@ -511,8 +530,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("sports").addEventListener("click",()=>{
     filterSports();
   })
-  document.getElementById("alphabet").addEventListener("click",()=>{
-    SortTitle();
+  document.getElementById("suspence").addEventListener("click",()=>{
+    filterSuspence();
   })
 });
 

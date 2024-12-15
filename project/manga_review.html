@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href="styles/review.css">
     <link rel="stylesheet" href="styles/review_large.css">
     <title>Document</title>
 </head>
@@ -21,7 +22,7 @@
         </nav>
     </header>
     <main>
-        <form method="get" action="review.html" class="wf1">
+        <form action="" method="post"  class="wf1">
             <fieldset>
                 <legend>Review Form</legend>
                 <label for="product-select">Product Selection</label>
@@ -43,14 +44,19 @@
                 <label><input id="graphic" type="checkbox" name="feature" value="yes">Graphic</label>
                 <label><input id="story" type="checkbox" name="feature" value="yes">Story</label>
                 <div>Written Review</div>
-                <textarea rows="6" cols="50" required>
-
-                </textarea>
+                <textarea rows="6" cols="50" required></textarea>
                 <div>Name(Optional)</div>
                 <label><input type="text" name="username"></label>
             </fieldset>
             <div class="button">
                 <input type="submit" value="Post my review">
+            </div>
+            <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 20px;">
+                <h2>Thank you for submitting your review!</h2>
+                <nav>
+                    <a href="project.html">Go Back to Home</a>
+                    <a href="project_search.html">Go Back to Search</a>
+                </nav>
             </div>
         </form>
     </main>

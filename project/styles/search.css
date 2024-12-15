@@ -1,0 +1,178 @@
+body{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    
+}
+h1{
+    padding: 10px;
+    margin: 0;
+}
+h2{
+
+    padding:10px;
+}
+nav{
+    background-color: transparent;
+    margin: 0;
+    padding:20px;
+    align-content: center;
+}
+nav a{
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+
+}
+header{
+    position:fixed;
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+
+}
+main{
+    padding-top:200px;
+
+}
+
+div{
+    display: block;
+
+
+}
+.sub1 p {
+    overflow-wrap: break-word;
+}
+.sub2{
+    align-items: center;
+}
+.sub1,
+.sub2{
+    max-width: 150px;
+}
+section div nav a{
+    font-size: 12px;
+    max-width: 100px;
+}
+section div{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    margin:10px;
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 8px;
+
+}
+section img{
+    height: 133px;
+    width: 100px;
+    margin: 20px;
+}
+section cite{
+    margin-right: 10px;
+}
+section p{
+    margin: 10px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+section h3{
+    margin-left: 10px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+.menu-container{
+    position: relative;
+}
+.menu-bar{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 35px;
+    transition: transform 0.3s ease;
+}
+.menu-bar span{
+    display: block;
+    height: 5px;
+    background-color: purple;
+    transition: all 0.3s ease;
+    margin-top: px;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    border: solid 2px aliceblue;
+    border-radius: 8px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 15px;
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.menu-bar.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-bar.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-bar.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.menu.open {
+    display: block;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    left: -8px;
+    padding: 0;
+
+}

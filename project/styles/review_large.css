@@ -1,4 +1,5 @@
-@media  screen and (min-width: 1000px) {
+@media screen and (min-width:1000px){
+    
     header{
         display: flex;
         font-family: "Anton", serif;
@@ -36,7 +37,6 @@
     nav a:hover{
         background-color: aliceblue;
         color: black;
-
     }
     nav{
         margin: 0;
@@ -89,7 +89,7 @@
         margin: 1rem;
         cursor: pointer;
         padding: 10px;
-    
+        
     }
     textarea{
         height: 100px;
@@ -97,7 +97,6 @@
         max-width: 450px;
         margin-top: 1rem;
     }
-
-
+    
     
 }
