@@ -1,5 +1,6 @@
+
 header{
-    display: flex;
+    display: block;
     font-family: "Anton", serif;
     font-weight: 400;
     font-style: normal;
@@ -9,15 +10,8 @@ header{
 p,
 h1{
     padding: 10px;
-    margin: 15px;
+    margin: 0;
     font-family: "Anton", serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-h2{
-    font-family: "Roboto Mono", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -35,16 +29,13 @@ body{
     margin: 0;
 }
 nav a{
-    font-family: "Anton", serif;
-    font-weight: 400;
-    font-style: normal;
     background-color: purple;
     color: aliceblue;
     padding: 10px;
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;                
+    font-size: 16px;                
 }
 nav a:hover{
     background-color: aliceblue;
@@ -55,10 +46,8 @@ nav{
     padding:20px;
     align-content: center;
 }
-
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
 }
 main div{
     color: aliceblue;
@@ -66,8 +55,13 @@ main div{
     border-radius: 8px;
     margin: 10px;
 }
-
 p{
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-weight: 400;
