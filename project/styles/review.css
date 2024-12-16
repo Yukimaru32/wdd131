@@ -92,9 +92,24 @@ nav{
     padding: 10px;
 
 }
+.wf1 input[type="submit"]:hover{
+    background-image: linear-gradient(white,rgb(159, 149, 149));
+    color: purple;
+}
 textarea{
     height: 100px;
     width: 100%;
     max-width: 450px;
     margin-top: 1rem;
+}
+#thankYouMessage h2{
+    color: black;
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#thankYouMessage nav a{
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
 }

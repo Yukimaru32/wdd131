@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel ="stylesheet" href="styles/review.css">
     <link rel="stylesheet" href="styles/review_large.css">
+    <script src="scripts/review_submission.js" defer></script>
     <title>Document</title>
-    <script src="scripts/review.submission.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,13 +23,21 @@
         </nav>
     </header>
     <main>
-        <form action="confirmation.html" method="get"  class="wf1">
+        <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 20px;">
+            <h2>Thank you for submitting your review!</h2>
+            <nav>
+                <a href="project.html">Go Back to Home</a>
+                <a href="review_collection.html">See All reviews</a>
+                <a href="project_search.html">Go Back to Search</a>
+            </nav>
+        </div>
+        <form action="review_collection.html" method="submit" onsubmit="SubmitReview(event)" class="wf1">
             <fieldset>
                 <legend>Review Form</legend>
                 <label for="product-select">Manga Selection</label>
                 <select id="product-select" name="product-select" required>
                     <option value="" disabled selected>Select a manga title</option>
-                    <script src="scripts/project_search.js" defer></script>
+                    <script src="scripts/review_selectino.js" defer></script>
                 </select>
                 <div>Overall Rating</div>
                 <label><input id="1star" type="radio" name="audience" value="star" required>&star;</label>
@@ -39,25 +47,18 @@
                 <label><input id="5star" type="radio" name="audience" value="star" required>&star;&star;&star;&star;&star;</label>
                 <div>Reading date</div>
                 <label><input id="date" type="date" name="date" required></label>
-                <div>Whhat did you like about this manga?(Select ALL that apply)</div>
+                <div>What did you like about this manga?(Select ALL that apply)</div>
                 <label><input id="character" type="checkbox" name="feature" value="yes">Character</label>
                 <label><input id="plot" type="checkbox" name="feature" value="yes">Plot</label>
                 <label><input id="graphic" type="checkbox" name="feature" value="yes">Graphic</label>
                 <label><input id="story" type="checkbox" name="feature" value="yes">Story</label>
                 <div>Written Review</div>
-                <textarea rows="6" cols="50" required></textarea>
+                <textarea rows="6" cols="50" name="review" required></textarea>
                 <div>Name(Optional)</div>
                 <label><input type="text" name="username"></label>
             </fieldset>
             <div class="button">
                 <input type="submit" value="Post my review">
-            </div>
-            <div id="thankYouMessage" style="display: none; text-align: center; margin-top: 20px;">
-                <h2>Thank you for submitting your review!</h2>
-                <nav>
-                    <a href="project.html">Go Back to Home</a>
-                    <a href="project_search.html">Go Back to Search</a>
-                </nav>
             </div>
         </form>
     </main>

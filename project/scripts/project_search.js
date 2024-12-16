@@ -546,17 +546,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-function createMangalist(mangas){
-  mangas.forEach(manga =>{
-      let card =document.createElement("option");
-      
 
-      card.innerHTML=`${manga.mangaTitle}`;
-      card.setAttribute("value",manga.mangaTitle);
-
-      document.querySelector("#product-select").appendChild(card);
-  })
-}
-
-createMangalist(mangaList);
   
