@@ -19,3 +19,4 @@ if (reviewCount) {
     const reviews = parseInt(localStorage.getItem('reviewCount')) || 0;
     reviewCount.textContent = reviews;
 }
+
